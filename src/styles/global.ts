@@ -7,21 +7,17 @@ export default createGlobalStyle`
         outline: 0;
         box-sizing: border-box;
     }
-
-    body{
-        background: #dbdbdb;
+    body {
+        background: #c7c7c7;
     }
-
     body, input, button {
         font: 16px Roboto, sans-serif;
     }
-
     #root {
-        max-width: 960px:
+        max-width: 960px;
         margin: 0 auto;
         padding: 40px 20px;
     }
-
     button {
         cursor: pointer;
     }
